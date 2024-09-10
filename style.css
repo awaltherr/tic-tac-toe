@@ -1,0 +1,31 @@
+body {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0;
+}
+
+.cell {
+  width: 100px;
+  height: 100px;
+  border: 2px solid black;
+  font-size: 40px;
+  cursor: pointer;
+  line-height: 100px;
+}
+
+.cell:hover {
+  background-color: rgb(240, 237, 237);
+}
+
+.game-container {
+  font-family: "Permanent Marker", cursive;
+}
+
+.cell-container {
+  display: grid;
+  grid-template-columns: repeat(3, auto);
+  width: 225px;
+  margin: auto;
+}
